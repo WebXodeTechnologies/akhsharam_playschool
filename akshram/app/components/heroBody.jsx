@@ -16,12 +16,12 @@ const decorativeImages = [
   {
     src: img1,
     alt: "Decorative Top Left",
-    className: "top-10 left-[-30px] w-24 h-24 animate-spin-slow",
+    className: "top-30 left-[-30px] w-24 h-24 animate-spin-slow",
   },
   {
     src: img2,
     alt: "Decorative Top Right",
-    className: "top-10 right-[-40px] w-24 h-24 animate-bounce-slow",
+    className: "top-30 right-[-40px] w-24 h-24 animate-bounce-slow",
   },
   {
     src: img3,

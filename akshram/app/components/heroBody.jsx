@@ -1,9 +1,105 @@
-import React from 'react'
+"use client";
 
-const heroBody = () => {
+import React from "react";
+import Image from "next/image";
+import Link from "next/link";
+
+// Assets
+import HeroImage from "@/public/assets/hero/hero-image.webp";
+import img1 from "@/public/assets/hero/vector-group-1-copyright.svg";
+import img2 from "@/public/assets/hero/vector-group-2-copyright.svg";
+import img3 from "@/public/assets/hero/vector-group-3-copyright.svg";
+import img4 from "@/public/assets/hero/vector-group-4-copyright.svg";
+
+// Decorative images config
+const decorativeImages = [
+  {
+    src: img1,
+    alt: "Decorative Top Left",
+    className: "top-10 left-[-30px] w-24 h-24 animate-spin-slow",
+  },
+  {
+    src: img2,
+    alt: "Decorative Top Right",
+    className: "top-10 right-[-40px] w-24 h-24 animate-bounce-slow",
+  },
+  {
+    src: img3,
+    alt: "Decorative Bottom Left",
+    className: "bottom-0 left-[-30px] w-20 h-20 animate-bounce-slow",
+  },
+  {
+    src: img4,
+    alt: "Decorative Bottom Right",
+    className: "bottom-0 right-[-40px] w-24 h-24 animate-spin-slow",
+  },
+];
+
+const HeroBody = () => {
   return (
-    <div>heroBody</div>
-  )
-}
+    <section
+      role="region"
+      aria-labelledby="hero-heading"
+      className="relative overflow-hidden py-24 sm:py-28 md:py-32 xl:py-40"
+    >
+      {/* Decorative Images */}
+      {decorativeImages.map(({ src, alt, className }, index) => (
+        <div key={index} className={`absolute ${className}`} aria-hidden="true">
+          <Image src={src} alt={alt} fill className="object-contain" />
+        </div>
+      ))}
 
-export default heroBody
+      {/* Main Content */}
+      <div className="relative z-10 max-w-5xl px-6 mx-auto text-center">
+        <p className="mb-4 text-lg font-medium text-indigo-600 md:text-xl">
+          Welcome to Akshram Play School
+        </p>
+
+        <h1
+          id="hero-heading"
+          className="mb-6 text-4xl font-bold leading-tight text-gray-800 sm:text-5xl md:text-6xl"
+        >
+          Where Little Minds Blossom with Joy & Creativity
+        </h1>
+
+        <p className="mx-auto mb-10 text-base text-gray-700 sm:text-lg md:text-xl max-w-2xl">
+          Akshram Play School in Namakkal offers a safe and nurturing
+          environment focused on early childhood development, creativity, and
+          joyful learning.
+        </p>
+
+        {/* CTA Buttons */}
+        <div className="flex flex-col sm:flex-row justify-center gap-4 mb-10">
+          <Link
+            href="/admission"
+            aria-label="Apply for admission to Akshram Play School"
+            className="px-8 py-4 text-lg font-semibold text-white bg-indigo-600 rounded-full shadow hover:bg-indigo-700 transition-all"
+          >
+            Get Started
+          </Link>
+          <a
+            href="https://wa.me/91xxxxxxxxxx"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Chat with Akshram Play School on WhatsApp"
+            className="px-8 py-4 text-lg font-semibold text-indigo-700 border-2 border-indigo-600 rounded-full hover:bg-indigo-50 transition-all"
+          >
+            Chat on WhatsApp
+          </a>
+        </div>
+
+        {/* Hero Image */}
+        <div className="flex justify-center">
+          <Image
+            src={HeroImage}
+            alt="Children playing and learning at Akshram Play School"
+            priority
+            className="w-full max-w-[480px] sm:max-w-[500px] md:max-w-[600px] lg:max-w-[700px] xl:max-w-[750px]"
+          />
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default HeroBody;

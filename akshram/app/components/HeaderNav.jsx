@@ -4,13 +4,15 @@ import React, { useState } from 'react'
 import Link from 'next/link'
 import { FiSearch } from 'react-icons/fi'
 import { CgMenuGridO } from 'react-icons/cg'
+import Logo from "@/public/assets/Logo/logo.png"
+import Image from 'next/image'
 
 const HeaderNav = () => {
   const [menuOpen, setMenuOpen] = useState(false)
 
   return (
-    <header className="fixed top-0 z-50 w-full">
-      <div className="max-w-7xl mx-auto px-10 py-10">
+    <header className="fixed top-0 z-50 w-full backdrop-blur-md border-b border-gray-200 shadow-sm">
+      <div className="max-w-7xl mx-auto px-10 py-4" >
         <div className="grid grid-cols-3 items-center">
           {/* Left Menu (Desktop) */}
           <div className="hidden md:flex gap-10 text-base font-medium text-gray-900">
@@ -22,7 +24,7 @@ const HeaderNav = () => {
 
           {/* Center Logo */}
           <div className="flex justify-center">
-            <span className="text-2xl font-bold text-gray-700 tracking-wide">Akshram</span>
+            <Image src={Logo} alt="Akshram Logo" width={60} className='object-contain'/>
           </div>
 
           {/* Right Icons */}

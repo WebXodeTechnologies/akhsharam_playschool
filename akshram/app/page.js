@@ -1,7 +1,12 @@
-import Image from "next/image";
+
+import HeroBody from "@/app/components/HeroBody";
+import BodyCTA from "@/app/components/BodyCTA";
 
 export default function Home() {
   return (
-    <div className="text-blue-300 text-5xl"> Hello World!!</div>
+    <div className="">
+      <HeroBody />
+      <BodyCTA />
+    </div>
   );
 }

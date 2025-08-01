@@ -1,6 +1,8 @@
 import React from 'react'
 import Link from 'next/link'
 import { FaFacebookF, FaInstagram, FaWhatsapp } from 'react-icons/fa'
+import Logo from "@/public/assets/logo/logo.png";
+import Image from 'next/image'
 
 const Footer = () => {
   return (
@@ -9,7 +11,9 @@ const Footer = () => {
         
         {/* Column 1: Logo */}
         <div>
-          <p className="text-sm">Akshram Play School is dedicated to nurturing creativity, care, and confidence in every child.</p>
+          <div className="flex items-center mb-4 ml-10">
+            <Image src={Logo} alt="Akshram Play School Logo" width={100} className=" mr-3 object-contain w-[50%] h-[50%]" />
+          </div>
         </div>
 
         {/* Column 2: Quick Links */}

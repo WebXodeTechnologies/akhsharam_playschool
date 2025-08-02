@@ -11,10 +11,10 @@ const RecentNews = () => {
                 <div className="grid md:grid-cols-2 gap-8 mb-10">
                     <div>
                         <p className="text-sm text-pink-500 uppercase font-semibold mb-3">
-                            From the Blog
+                            Joyful Moments
                         </p>
                         <h2 className="text-4xl font-bold text-gray-900 mb-4">
-                            Check our recent articles
+                            Discover Our Recent School Events
                         </h2>
                     </div>
                     <div className="text-gray-600 text-base leading-relaxed">

@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
-import { FaFacebookF, FaInstagram, FaWhatsapp } from 'react-icons/fa'
+import { FaFacebookF, FaInstagram, FaWhatsapp,FaYoutube  } from 'react-icons/fa'
 import Logo from "@/public/assets/logo/logo.png";
 import Image from 'next/image'
 
@@ -40,7 +40,7 @@ const Footer = () => {
 
         {/* Column 4: Social Media */}
         <div>
-          <h4 className="font-semibold text-lg mb-3">Follow Us</h4>
+          <h4 className="font-semibold text-lg tracking-wider mb-3">Follow Us</h4>
           <div className="flex space-x-4 text-lg">
             <a href="https://facebook.com" target="_blank" className="hover:text-blue-600">
               <FaFacebookF />

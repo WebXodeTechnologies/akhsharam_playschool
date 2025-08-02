@@ -6,6 +6,8 @@ import AboutText from "../app/components/AboutText";
 import Whatwedo from "../app/components/What.jsx";
 import OurServices from "@/app/components/OurServices";
 import RecentNews from "@/app/components/RecentNews";
+import Testimonial from "./components/Testimonial";
+import AnimatedTooltip from "./components/AmimatedTooltip";
 
 export default function Home() {
   return (
@@ -17,6 +19,8 @@ export default function Home() {
       <Whatwedo />
       <OurServices />
       <RecentNews />
+      <AnimatedTooltip />
+      <Testimonial />
     </div>
   );
 }

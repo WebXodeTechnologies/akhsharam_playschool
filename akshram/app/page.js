@@ -5,6 +5,7 @@ import ImageBody from "@/app/components/ImageBody";
 import AboutUsText from "@/app/components/AboutUsText";
 import Whatwedo from "@/app/components/Whatwedo";
 import OurServices from "@/app/components/OurServices";
+import RecentNews from "@/app/components/RecentNews";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <AboutUsText />
       <Whatwedo />
       <OurServices />
+      <RecentNews />
     </div>
   );
 }

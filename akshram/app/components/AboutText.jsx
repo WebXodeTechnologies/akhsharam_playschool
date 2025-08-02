@@ -1,8 +1,8 @@
-'use client';
-import React from 'react';
+'use client'
+import React from 'react'
 
 const AboutText = () => {
-    return (
+   return (
         <section className="w-full px-4 sm:px-8 md:px-16 py-16">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
 
@@ -57,6 +57,6 @@ const AboutText = () => {
             </div>
         </section>
     );
-};
+}
 
-export default AboutText;
+export default AboutText

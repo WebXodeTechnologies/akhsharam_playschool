@@ -1,5 +1,5 @@
 
-import HeroBody from "@/app/components/heroBody";
+import HeroBody from "@/app/components/HeroBody";
 import BodyCTA from "@/app/components/BodyCTA";
 import ImageBody from "@/app/components/ImageBody";
 import AboutUsText from "@/app/components/AboutUsText";

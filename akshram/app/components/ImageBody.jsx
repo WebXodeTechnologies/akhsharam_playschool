@@ -17,9 +17,9 @@ const ImageBody = () => {
             <Image
               src={Image1}
               alt="Happy student at Akshram"
-              width={600}
+              width={400}
               height={400}
-              className="w-full h-auto object-cover rounded-2xl"
+              className="w-full object-cover rounded-2xl"
               priority
             />
           </motion.div>
@@ -36,23 +36,6 @@ const ImageBody = () => {
               className="w-full h-auto object-cover rounded-2xl"
             />
           </motion.div>
-
-        {/* Right: Content */}
-        <div className="flex flex-col items-center md:items-start text-center md:text-left justify-center">
-          <h2 className="text-4xl md:text-5xl font-extrabold text-indigo-700 leading-tight mb-6">
-            About Akshram <br className="hidden md:block" /> Play School
-          </h2>
-          <p className="text-gray-700 text-lg md:text-xl leading-relaxed mb-8 max-w-xl">
-            A joyful learning environment where curiosity is encouraged and confidence is nurtured. Our dedicated educators ensure every child receives personalized attention to blossom into their best selves.
-          </p>
-          <motion.button
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-            className="bg-indigo-600 text-white px-7 py-3 rounded-full font-semibold shadow-md hover:bg-indigo-700 transition-all duration-300"
-          >
-            Learn More About Us
-          </motion.button>
-        </div>
       </div>
     </section>
   );

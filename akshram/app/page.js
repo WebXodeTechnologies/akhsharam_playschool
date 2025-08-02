@@ -1,7 +1,8 @@
 
-import HeroBody from "@/app/components/HeroBody";
+import HeroBody from "@/app/components/heroBody";
 import BodyCTA from "@/app/components/BodyCTA";
 import ImageBody from "@/app/components/ImageBody";
+import AboutUsText from "@/app/components/AboutUsText";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       <HeroBody />
       <BodyCTA />
       <ImageBody />
+      <AboutUsText />
     </div>
   );
 }

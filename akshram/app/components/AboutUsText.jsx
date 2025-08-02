@@ -18,10 +18,9 @@ const AboutUsText = () => {
 
                 {/* Right Column */}
                 <div className="flex flex-col gap-10">
-
                     {/* Row 1 */}
                     <div className="flex flex-col md:flex-row items-start gap-4">
-                        <div className="w-2 h-14 bg-indigo-600 rounded-sm" />
+                        <div className=" hidden md:block w-2 h-14 bg-indigo-600 rounded-sm" />
                         <div>
                             <h3 className="text-xl font-semibold text-gray-800 mb-2">
                                 A Vibrant Learning Space
@@ -34,7 +33,7 @@ const AboutUsText = () => {
 
                     {/* Row 2 */}
                     <div className="flex flex-col md:flex-row items-start gap-4">
-                        <div className="w-2 h-14 bg-indigo-600 rounded-sm" />
+                        <div className="hidden md:block  w-2 h-14 bg-indigo-600 rounded-sm" />
                         <div>
                             <h3 className="text-xl font-semibold text-gray-800 mb-2">
                                 Friendly & Caring Educators

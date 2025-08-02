@@ -23,3 +23,21 @@ body{
 .animate-slide-in-left {
   animation: slide-in-left 0.3s ease-out forwards;
 }
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  display: inline-block;
+  animation: marquee 20s linear infinite;
+}
+
+.group-hover\:paused-on-hover:hover {
+  animation-play-state: paused;
+}

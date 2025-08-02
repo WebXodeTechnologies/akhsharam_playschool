@@ -2,8 +2,8 @@
 import HeroBody from "@/app/components/HeroBody";
 import BodyCTA from "@/app/components/BodyCTA";
 import ImageBody from "@/app/components/ImageBody";
-import AboutUsText from "@/app/components/AboutUsText";
-import Whatwedo from "@/app/components/Whatwedo";
+import AboutText from "../app/components/AboutText";
+import Whatwedo from "../app/components/What.jsx";
 import OurServices from "@/app/components/OurServices";
 import RecentNews from "@/app/components/RecentNews";
 
@@ -13,7 +13,7 @@ export default function Home() {
       <HeroBody />
       <BodyCTA />
       <ImageBody />
-      <AboutUsText />
+      <AboutText />
       <Whatwedo />
       <OurServices />
       <RecentNews />

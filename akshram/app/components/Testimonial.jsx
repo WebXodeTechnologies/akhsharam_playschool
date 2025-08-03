@@ -55,8 +55,8 @@ const testimonials = [
 
 const Testimonial = () => {
     return (
-        <section className="py-20 px-6 lg:px-24">
-            <h2 className="text-3xl md:text-4xl font-bold text-center mb-10 text-[#333]">
+        <section className="py-20 px-6 lg:px-24" aria-labelledby="testimonial-heading">
+            <h2 id="testimonial-heading" className="text-3xl md:text-4xl font-bold text-center mb-10 text-[#333]">
                 What Our Parents Say
             </h2>
             <Marquee
@@ -65,6 +65,7 @@ const Testimonial = () => {
                 pauseOnHover
                 direction="left"
                 delay={0}
+                aria-hidden="true"
             >
                 {testimonials.map((t, idx) => (
                     <div
@@ -88,7 +89,7 @@ const Testimonial = () => {
                         </p>
 
                         {/* Star Rating */}
-                        <div className="flex justify-center mb-3">
+                        <div className="flex justify-center mb-3" role="img" aria-label={`${t.rating} star rating`}>
                             {Array(t.rating).fill().map((_, i) => (
                                 <span key={i} className="text-yellow-400 text-lg">★</span>
                             ))}

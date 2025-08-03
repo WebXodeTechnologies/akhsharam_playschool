@@ -4,27 +4,57 @@ import React, { useState } from 'react'
 import Link from 'next/link'
 import { FiSearch } from 'react-icons/fi'
 import { CgMenuGridO } from 'react-icons/cg'
-import Logo from "@/public/assets/Logo/logo.png"
 import Image from 'next/image'
+import Logo from "@/public/assets/Logo/logo.png"
 
 const HeaderNav = () => {
   const [menuOpen, setMenuOpen] = useState(false)
 
   return (
     <header className="fixed top-0 z-50 w-full backdrop-blur-md border-b border-gray-200 shadow-sm">
-      <div className="max-w-7xl mx-auto px-10 py-4" >
+      {/* Primary Navigation */}
+      <nav
+        className="max-w-7xl mx-auto px-10 py-4"
+        aria-label="Primary Navigation"
+      >
         <div className="grid grid-cols-3 items-center">
           {/* Left Menu (Desktop) */}
           <div className="hidden md:flex gap-10 text-base font-medium text-gray-900">
-            <Link href="/about-us" className="hover:underline decoration-2 underline-offset-4 transition-all">About</Link>
-            <Link href="/gallery" className="hover:underline decoration-2 underline-offset-4 transition-all">Gallery</Link>
-            <Link href="/admissions" className="hover:underline decoration-2 underline-offset-4 transition-all">Admission</Link>
-            <Link href="/Contact" className="hover:underline decoration-2 underline-offset-4 transition-all">Contact</Link>
+            <Link
+              href="/about-us"
+              aria-label="Learn more about Akshram Play School"
+              className="hover:underline decoration-2 underline-offset-4 transition-all"
+            >
+              About
+            </Link>
+            <Link
+              href="/gallery"
+              aria-label="View Akshram Play School gallery"
+              className="hover:underline decoration-2 underline-offset-4 transition-all"
+            >
+              Gallery
+            </Link>
+            <Link
+              href="/admissions"
+              aria-label="Apply for admission to Akshram Play School"
+              className="hover:underline decoration-2 underline-offset-4 transition-all"
+            >
+              Admissions
+            </Link>
+            <Link
+              href="/contact"
+              aria-label="Contact Akshram Play School"
+              className="hover:underline decoration-2 underline-offset-4 transition-all"
+            >
+              Contact
+            </Link>
           </div>
 
           {/* Center Logo */}
           <div className="flex justify-center">
-            <Image src={Logo} alt="Akshram Logo" width={60} className='object-contain'/>
+            <Link href="/" aria-label="Go to Akshram Home Page">
+              <Image src={Logo} alt="Akshram Logo" width={60} className="object-contain" />
+            </Link>
           </div>
 
           {/* Right Icons */}
@@ -45,7 +75,7 @@ const HeaderNav = () => {
             </button>
           </div>
         </div>
-      </div>
+      </nav>
 
       {/* Fullscreen Mobile Menu */}
       {menuOpen && (
@@ -60,11 +90,25 @@ const HeaderNav = () => {
             </button>
           </div>
 
-          <nav className="flex flex-col gap-6 text-lg font-medium text-gray-700">
-            <Link href="/about-us" onClick={() => setMenuOpen(false)} className="hover:text-indigo-600">About Us</Link>
-            <Link href="/gallery" onClick={() => setMenuOpen(false)} className="hover:text-indigo-600">Gallery</Link>
-            <Link href="/admission" onClick={() => setMenuOpen(false)} className="hover:text-indigo-600">Admissions</Link>
-            <Link href="https://wa.me/91xxxxxxxxxx" target="_blank" onClick={() => setMenuOpen(false)} className="hover:text-indigo-600">Contact</Link>
+          <nav
+            className="flex flex-col gap-6 text-lg font-medium text-gray-700"
+            aria-label="Mobile Navigation"
+          >
+            <Link href="/about-us" onClick={() => setMenuOpen(false)} className="hover:text-indigo-600">
+              About Us
+            </Link>
+            <Link href="/gallery" onClick={() => setMenuOpen(false)} className="hover:text-indigo-600">
+              Gallery
+            </Link>
+            <Link href="/admissions" onClick={() => setMenuOpen(false)} className="hover:text-indigo-600">
+              Admissions
+            </Link>
+            <Link href="/contact" onClick={() => setMenuOpen(false)} className="hover:text-indigo-600">
+              Contact
+            </Link>
+            <Link href="https://wa.me/91xxxxxxxxxx" target="_blank" rel="noopener noreferrer" className="hover:text-green-600">
+              WhatsApp Us
+            </Link>
           </nav>
         </div>
       )}

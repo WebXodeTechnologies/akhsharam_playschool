@@ -21,7 +21,7 @@ const HeaderNav = () => {
           {/* Left Menu (Desktop) */}
           <div className="hidden md:flex gap-10 text-base font-medium text-gray-900">
             <Link
-              href="/about-us"
+              href="/about"
               aria-label="Learn more about Akshram Play School"
               className="hover:underline decoration-2 underline-offset-4 transition-all"
             >

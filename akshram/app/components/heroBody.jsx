@@ -55,7 +55,7 @@ const HeroBody = () => {
           id="hero-heading"
           className="mb-6 text-4xl font-bold leading-tight text-gray-800 sm:text-5xl md:text-6xl"
         >
-          Play. Learn. Grow 
+          Play. Learn. Grow
         </h1>
 
         <p className="mx-auto mb-10 text-base text-gray-700 sm:text-lg md:text-xl max-w-2xl">

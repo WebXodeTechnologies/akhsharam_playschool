@@ -38,7 +38,7 @@ const OurServices = () => {
                         priority
                     />
                     <div className="absolute inset-0 flex flex-col justify-center items-center text-center px-4 sm:px-6 md:px-10">
-                       
+
                         <h3 id="our-services-heading" className="text-sm sm:text-md md:text-lg lg:text-2xl xl:text-3xl font-bold text-gray-900 mb-4 leading-tight">
                             Early Education Programs to Nurture Young Minds
                         </h3>

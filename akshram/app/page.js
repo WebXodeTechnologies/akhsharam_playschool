@@ -8,6 +8,7 @@ import OurServices from "@/app/components/OurServices";
 import RecentNews from "@/app/components/RecentNews";
 import Testimonial from "./components/Testimonial";
 import AnimatedTooltip from "./components/AmimatedTooltip";
+import Video from "./components/Video"
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <ImageBody />
       <AboutText />
       <Whatwedo />
+      <Video />
       <OurServices />
       <RecentNews />
       <AnimatedTooltip />

@@ -35,13 +35,6 @@ const HeaderNav = () => {
               Gallery
             </Link>
             <Link
-              href="/admissions"
-              aria-label="Apply for admission to Akshram Play School"
-              className="hover:underline decoration-2 underline-offset-4 transition-all"
-            >
-              Admissions
-            </Link>
-            <Link
               href="/contact"
               aria-label="Contact Akshram Play School"
               className="hover:underline decoration-2 underline-offset-4 transition-all"

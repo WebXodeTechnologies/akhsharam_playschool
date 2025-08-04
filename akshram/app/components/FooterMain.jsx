@@ -6,7 +6,7 @@ import { FaFacebookF, FaInstagram, FaWhatsapp, FaYoutube } from 'react-icons/fa'
 import Image from 'next/image'
 import Logo from "@/public/assets/LogoMain/logo.png"
 
-const Footer = () => {
+const FooterMain = () => {
   return (
     <footer className="bg-gray-100 text-gray-700 py-10">
       <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
@@ -97,4 +97,4 @@ const Footer = () => {
   )
 }
 
-export default Footer
+export default FooterMain

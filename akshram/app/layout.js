@@ -1,7 +1,7 @@
 import './globals.css'
 import { Poppins } from 'next/font/google'
 import HeaderNav from '@/app/components/HeaderNav'
-import Footer from './components/Footer'
+import Footer from './components/Footer.jsx'
 
 const poppins = Poppins({
   weight: ['300', '400', '500', '600', '700'],

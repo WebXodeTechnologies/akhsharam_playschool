@@ -5,7 +5,7 @@ import Link from 'next/link'
 import { FiSearch } from 'react-icons/fi'
 import { CgMenuGridO } from 'react-icons/cg'
 import Image from 'next/image'
-import Logo from "@/public/assets/Logo/logo.png"
+import Logo from "@/public/assets/LogoMainlogo.png"
 
 const HeaderNav = () => {
   const [menuOpen, setMenuOpen] = useState(false)

@@ -59,7 +59,7 @@ const HeroBody = () => {
         </h1>
 
         <p className="mx-auto mb-10 text-base text-gray-700 sm:text-lg md:text-xl max-w-2xl">
-          Akshram Play School provides a caring, creative, and joyful
+          Akhsharam Play School provides a caring, creative, and joyful
           environment for early childhood education. Our preschool programs are
           designed to help children blossom through activity-based learning,
           Montessori methods, and child-centric care.
@@ -67,14 +67,14 @@ const HeroBody = () => {
 
         <div className="flex flex-col sm:flex-row justify-center gap-4 mb-10">
           <Link
-            href="/admission"
+            href="/contact"
             aria-label="Apply for admission to Akshram Play School"
             className="px-8 py-4 text-lg font-semibold text-white bg-indigo-600 rounded-full shadow hover:bg-indigo-700 transition-all"
           >
             Enroll Now
           </Link>
           <a
-            href="https://wa.me/91xxxxxxxxxx"
+            href="https://wa.me/9865732398"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Chat with Akshram Play School on WhatsApp"

@@ -17,7 +17,7 @@ const RecentNews = () => {
                             Joyful Moments
                         </p>
                         <h2 id="recent-news-heading" className="text-4xl font-bold text-gray-900 mb-4">
-                            Discover School Events at Akshram Play School Namakkal
+                            Discover School Events at Akhsharam Play School Namakkal
                         </h2>
                     </div>
                     <div className="text-gray-600 text-base leading-relaxed">

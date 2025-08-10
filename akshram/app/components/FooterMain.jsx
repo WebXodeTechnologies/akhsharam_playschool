@@ -28,9 +28,8 @@ const FooterMain = () => {
           <h4 className="font-semibold text-lg mb-3">Quick Links</h4>
           <ul className="space-y-2 text-sm">
             <li><Link href="/" className="hover:text-indigo-600">Home</Link></li>
-            <li><Link href="/about-us" className="hover:text-indigo-600">About Us</Link></li>
+            <li><Link href="/about" className="hover:text-indigo-600">About Us</Link></li>
             <li><Link href="/gallery" className="hover:text-indigo-600">Gallery</Link></li>
-            <li><Link href="/admissions" className="hover:text-indigo-600">Admissions</Link></li>
           </ul>
         </nav>
 
@@ -38,7 +37,7 @@ const FooterMain = () => {
         <address className="not-italic">
           <h4 className="font-semibold text-lg mb-3">Get in Touch</h4>
           <ul className="space-y-2 text-sm">
-            <li><Link href="/contact-us" className="hover:text-indigo-600">Contact Us</Link></li>
+            <li><Link href="/contact" className="hover:text-indigo-600">Contact Us</Link></li>
             <li><a href="tel:+919876543210" className="hover:text-indigo-600" aria-label="Call Akshram Play School">+91 98765 43210</a></li>
             <li><a href="mailto:info@akshramplayschool.com" className="hover:text-indigo-600" aria-label="Email Akshram Play School">info@akshramplayschool.com</a></li>
             <li><span>Namakkal, Tamil Nadu – Best Nursery & Play School</span></li>
@@ -91,7 +90,7 @@ const FooterMain = () => {
 
       {/* Bottom Line */}
       <div className="text-center text-xs text-gray-500 mt-10">
-        &copy; {new Date().getFullYear()} Akshram Play School. All rights reserved. | Designed by <a href="https://webxode.com" className="hover:text-indigo-600" target="_blank" rel="noopener noreferrer">Webxode Technologies</a>
+        &copy; {new Date().getFullYear()} Akhsharam Play School. All rights reserved. | Designed by <a href="https://webxode.com" className="hover:text-indigo-600" target="_blank" rel="noopener noreferrer">Webxode Technologies</a>
       </div>
     </footer>
   )

@@ -12,7 +12,7 @@ const AboutHero = () => {
                     Shaping Bright Futures,<br /> One Child at a Time
                 </h1>
                 <p className="text-gray-700 text-base sm:text-lg leading-relaxed mb-6">
-                    At Akshram Play School, we believe early childhood is the foundation for lifelong learning.
+                    At Akhsharam Play School, we believe early childhood is the foundation for lifelong learning.
                     With love, laughter, and guided discovery, we help every child grow with confidence and creativity.
                 </p>
             </div>

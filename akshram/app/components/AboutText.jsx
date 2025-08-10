@@ -11,7 +11,7 @@ const AboutText = () => {
                         About Us
                     </h2>
                     <p className="text-gray-700 text-base sm:text-lg md:text-xl max-w-xl leading-relaxed">
-                        At Akshram Play School in Namakkal, we offer a caring, creative, and safe environment
+                        At Akhsharam Play School in Namakkal, we offer a caring, creative, and safe environment
                         where every child feels valued and inspired to explore, play, and grow into confident
                         learners.
                     </p>
@@ -48,10 +48,10 @@ const AboutText = () => {
             {/* CTA Button */}
             <div className="mt-16 sm:mt-20 text-center">
                 <a
-                    href="/About"
+                    href="/about"
                     className="inline-block px-6 py-3 bg-indigo-600 text-white font-semibold rounded-full hover:bg-indigo-700 transition-colors"
                 >
-                    Discover Akshram's World of Learning
+                    Discover Akhsharam's World of Learning
                 </a>
             </div>
         </section>

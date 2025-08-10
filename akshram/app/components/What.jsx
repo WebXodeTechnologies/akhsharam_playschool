@@ -20,16 +20,16 @@ const What = () => {
                         What We Do
                     </h2>
                     <h1 className="text-4xl sm:text-5xl font-extrabold text-gray-900 leading-snug mb-6">
-                        Inspiring Young Minds at Akshram Play School in Namakkal
+                        Inspiring Young Minds at Akhsharam Play School in Namakkal
                     </h1>
                     <p className="text-gray-600 text-base leading-relaxed mb-6">
-                        At Akshram, we nurture curiosity, creativity, and confidence through playful
+                        At Akhsharam, we nurture curiosity, creativity, and confidence through playful
                         learning environments tailored for early childhood education. Our programs focus on
                         holistic development, helping children become confident and joyful learners.
                     </p>
                     <a
                         href="/about"
-                        aria-label="Learn more about Akshram Play School"
+                        aria-label="Learn more about Akhsharam Play School"
                         className=" bg-indigo-600 hover:bg-indigo-800 text-white font-semibold py-3 px-6 rounded-full shadow-md transition duration-300 inline-block"
                     >
                         Learn About Us
@@ -49,7 +49,7 @@ const What = () => {
                                 <p className="text-gray-500 text-sm">Fun-filled group learning that builds bonds and brains.</p>
                             </div>
                         </div>
-                        <div className="text-2xl sm:text-3xl font-bold text-gray-900">12</div>
+                        
                     </li>
 
                     {/* CARD 2 */}
@@ -63,7 +63,7 @@ const What = () => {
                                 <p className="text-gray-500 text-sm">Learning through play with engaging tools and resources.</p>
                             </div>
                         </div>
-                        <div className="text-2xl sm:text-3xl font-bold text-gray-900">150</div>
+                        
                     </li>
 
                     {/* CARD 3 */}
@@ -77,7 +77,7 @@ const What = () => {
                                 <p className="text-gray-500 text-sm">Indoor and outdoor zones designed for active fun and learning.</p>
                             </div>
                         </div>
-                        <div className="text-2xl sm:text-3xl font-bold text-gray-900">15</div>
+                       
                     </li>
                 </ul>
             </div>

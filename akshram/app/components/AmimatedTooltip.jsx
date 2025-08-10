@@ -49,7 +49,7 @@ const AnimatedTooltip = () => {
           Loved by Parents, Trusted for Learning
         </h2>
         <p className="text-gray-600 text-sm sm:text-base mt-2">
-          Real voices. True stories. Heartfelt experiences from Akshram Play School parents.
+          Real voices. True stories. Heartfelt experiences from Akhsharam Play School parents.
         </p>
       </div>
 

@@ -21,7 +21,7 @@ const AboutFounder = () => {
             From the Founder’s Desk
           </h2>
           <p className="text-gray-700 text-base sm:text-lg mb-6 leading-relaxed">
-            At Akshram Play School, we believe every child is born with unique talents waiting to be discovered.
+            At Akhsharam Play School, we believe every child is born with unique talents waiting to be discovered.
             Our vision is to provide a joyful, secure, and stimulating environment where learning is natural,
             creativity blossoms, and every child grows with compassion and confidence.
           </p>
@@ -43,7 +43,7 @@ const AboutFounder = () => {
       {/* Agenda Section */}
       <div className="bg-white p-8 rounded-3xl shadow-lg">
         <h3 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-6">
-          Our Agenda at Akshram
+          Our Agenda at Akhsharam
         </h3>
         <p className="text-gray-700 text-base sm:text-lg mb-4 leading-relaxed">
           Our mission is to help students discover their inner strengths, build skills

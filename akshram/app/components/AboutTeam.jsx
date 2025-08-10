@@ -5,7 +5,7 @@ import Image from "next/image";
 
 // Replace with actual images
 import founderImg from "@/public/assets/about-hero/undraw_super-woman_6nx2.svg";
-import cofounderImg from "@/public/assets/about-hero/undraw_super-woman_6nx2.svg";
+import cofounderImg from "@/public/assets/founder1.jpg";
 import teacherImg from "@/public/assets/about-hero/undraw_super-woman_6nx2.svg";
 
 const teamMembers = [
@@ -55,12 +55,12 @@ const AboutTeam = () => {
         {teamMembers.map((member, idx) => (
           <motion.article
             key={idx}
-            className="relative group bg-white rounded-3xl shadow-xl overflow-hidden"
+            className="relative  rounded-3xl overflow-hidden"
             whileHover={{ scale: 1.03 }}
             transition={{ duration: 0.3 }}
             aria-label={`Profile of ${member.name}`}
           >
-            <div className="relative w-full h-[350px]">
+            <div className="relative w-full h-[350px] rounded-3xl">
               <Image
                 src={member.image}
                 alt={member.alt}
@@ -70,7 +70,7 @@ const AboutTeam = () => {
 
               {/* Hover Overlay with Education & Experience */}
               <motion.div
-                className="absolute inset-0 bg-gradient-to-t from-black via-gray-800/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-white p-6 flex flex-col justify-end"
+                className="absolute inset-0 bg-gradient-to-t from-black via-gray-900/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-white p-6 flex flex-col justify-end"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ duration: 0.3 }}

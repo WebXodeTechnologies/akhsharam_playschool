@@ -14,7 +14,7 @@ const steps = [
     title: 'Social Development Skills',
     description:
       'At Akshram Play School in Namakkal, children build social confidence through group play, communication games, and storytelling sessions.',
-    href: '/',
+    href: '/about',
     alt: 'Children socializing in preschool activities',
   },
   {
@@ -22,7 +22,7 @@ const steps = [
     title: 'Interactive & Activity-Based Learning',
     description:
       'Our curriculum promotes hands-on discovery and active participation—perfect for nurturing curiosity and early cognitive skills.',
-    href: '/',
+    href: '/about',
     alt: 'Kid reading book in interactive classroom setting',
   },
   {
@@ -30,7 +30,7 @@ const steps = [
     title: 'Safe & Friendly Learning Environment',
     description:
       'We offer a secure, hygienic, and emotionally supportive space where kids feel safe, valued, and inspired to grow.',
-    href: '/',
+    href: '/about',
     alt: 'Soft toy representing comfort and child-friendly environment',
   },
 ];

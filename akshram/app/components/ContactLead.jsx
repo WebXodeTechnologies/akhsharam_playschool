@@ -2,10 +2,36 @@
 import React from "react";
 import Image from "next/image";
 import contactImg from "@/public/assets/about-hero/undraw_toy-car_ugyu.svg";
+import emailjs from "@emailjs/browser";
+import toast, { Toaster } from "react-hot-toast";
 
 const ContactLead = () => {
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_vf40qkt", // your service ID
+        "template_i4720yn", // your template ID
+        e.target,
+        "cqQ3FiRF2IfSekZFU"  // your public key
+      )
+      .then(
+        () => {
+          toast.success("Message sent successfully! 🎉");
+          e.target.reset();
+        },
+        (error) => {
+          toast.error(`Failed to send: ${error.text}`);
+        }
+      );
+  };
+
   return (
     <section className="max-w-7xl mx-auto py-20 px-4 sm:px-8 lg:px-24">
+      {/* Toast container */}
+      <Toaster position="top-center" reverseOrder={false} />
+
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         {/* Left Side: Lead Form */}
         <div>
@@ -17,7 +43,11 @@ const ContactLead = () => {
             respond promptly!
           </p>
 
-          <form className="space-y-6 p-6 rounded-xl shadow-md" aria-label="Contact form for Akshram Play School">
+          <form
+            className="space-y-6 p-6 rounded-xl shadow-md"
+            aria-label="Contact form for Akshram Play School"
+            onSubmit={handleSubmit}
+          >
             {/* First Name & Last Name */}
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
               <div>

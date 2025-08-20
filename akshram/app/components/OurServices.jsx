@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import image1 from "@/public/assets/comp-five/top-illustration-copyright.webp";
+import image1 from "@/public/assets/image-main-2.webp";
 import image2 from "@/public/assets/comp-five/bottom-illustration-copyright.webp";
 
 const OurServices = () => {

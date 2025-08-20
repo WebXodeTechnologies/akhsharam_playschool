@@ -1,5 +1,4 @@
 'use client'
-
 import React from 'react'
 import Link from 'next/link'
 import { FaFacebookF, FaInstagram, FaWhatsapp, FaYoutube } from 'react-icons/fa'
@@ -16,7 +15,7 @@ const FooterMain = () => {
           <div className="flex items-center mb-4 ml-10">
             <Image
               src={Logo}
-              alt="Akshram Play School Logo - Best Nursery School in Namakkal"
+              alt="Akhsharam Play School Logo - Best Nursery School in Namakkal"
               width={100}
               className="mr-3 object-contain w-[50%] h-[50%]"
             />
@@ -34,22 +33,25 @@ const FooterMain = () => {
         </nav>
 
         {/* Column 3: Get in Touch */}
+        <div className="">
         <address className="not-italic">
           <h4 className="font-semibold text-lg mb-3">Get in Touch</h4>
           <ul className="space-y-2 text-sm">
             <li><Link href="/contact" className="hover:text-indigo-600">Contact Us</Link></li>
-            <li><a href="tel:+919876543210" className="hover:text-indigo-600" aria-label="Call Akshram Play School">+91 98765 43210</a></li>
-            <li><a href="mailto:info@akshramplayschool.com" className="hover:text-indigo-600" aria-label="Email Akshram Play School">info@akshramplayschool.com</a></li>
+            <li><a href="tel:+91-9865732398 " className="hover:text-indigo-600" aria-label="Call Akshram Play School">9865732398 </a></li>
+            <li><a href="mailto:akhsharamplayschool@gmail.com" className="hover:text-indigo-600" aria-label="Email Akshram Play School">akhsharamplayschool@gmail.com</a></li>
             <li><span>Namakkal, Tamil Nadu – Best Nursery & Play School</span></li>
           </ul>
         </address>
+        </div>
+   
 
         {/* Column 4: Social Media */}
         <div>
           <h4 className="font-semibold text-lg tracking-wider mb-3">Follow Us</h4>
           <div className="flex space-x-4 text-lg">
             <a
-              href="https://facebook.com"
+              href="https://www.facebook.com/akhsharam.playschool.3"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Akshram Play School on Facebook"
@@ -58,7 +60,7 @@ const FooterMain = () => {
               <FaFacebookF />
             </a>
             <a
-              href="https://instagram.com"
+              href="https://www.instagram.com/akhsharamplayschool/"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Akshram Play School on Instagram"
@@ -67,7 +69,7 @@ const FooterMain = () => {
               <FaInstagram />
             </a>
             <a
-              href="https://wa.me/919876543210"
+              href="https://wa.me/9865732398"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Chat with Akshram Play School on WhatsApp"
@@ -76,7 +78,7 @@ const FooterMain = () => {
               <FaWhatsapp />
             </a>
             <a
-              href="https://youtube.com"
+              href="https://www.youtube.com/@akhsharamplayschoolkirutik2658"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Akshram Play School on YouTube"
@@ -90,7 +92,7 @@ const FooterMain = () => {
 
       {/* Bottom Line */}
       <div className="text-center text-xs text-gray-500 mt-10">
-        &copy; {new Date().getFullYear()} Akhsharam Play School. All rights reserved. | Designed by <a href="https://webxode.com" className="hover:text-indigo-600" target="_blank" rel="noopener noreferrer">Webxode Technologies</a>
+        &copy; {new Date().getFullYear()} Akhsharam Play School. All rights reserved. | Designed by <a href="https://webxode.vercel.app" className="hover:text-indigo-600" target="_blank" rel="noopener noreferrer">Webxode Technologies</a>
       </div>
     </footer>
   )

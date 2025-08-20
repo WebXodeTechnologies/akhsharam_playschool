@@ -43,7 +43,7 @@ const AboutFounder = () => {
       {/* Agenda Section */}
       <div className="bg-white p-8 rounded-3xl shadow-lg">
         <h3 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-6">
-          Our Agenda at Akhsharam
+          Our Agenda at Akhsharam 
         </h3>
         <p className="text-gray-700 text-base sm:text-lg mb-4 leading-relaxed">
           Our mission is to help students discover their inner strengths, build skills
@@ -51,7 +51,7 @@ const AboutFounder = () => {
           We foster a space where teachers grow with purpose, and children thrive in a world of discovery.
         </p>
         <p className="text-gray-700 text-base sm:text-lg mb-4 leading-relaxed">
-          Akshram is more than a playschool — it's a nurturing ground for tomorrow’s changemakers.
+          Akhsharam is more than a playschool — it's a nurturing ground for tomorrow’s changemakers.
           With balanced attention on academics, creativity, emotional wellness, and physical development,
           we guide each child to be a confident, responsible and compassionate global citizen.
         </p>

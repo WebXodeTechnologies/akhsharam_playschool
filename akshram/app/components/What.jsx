@@ -23,7 +23,7 @@ const What = () => {
                         Inspiring Young Minds at Akhsharam Play School in Namakkal
                     </h1>
                     <p className="text-gray-600 text-base leading-relaxed mb-6">
-                        At Akhsharam, we nurture curiosity, creativity, and confidence through playful
+                        At Akhsharam , we nurture curiosity, creativity, and confidence through playful
                         learning environments tailored for early childhood education. Our programs focus on
                         holistic development, helping children become confident and joyful learners.
                     </p>

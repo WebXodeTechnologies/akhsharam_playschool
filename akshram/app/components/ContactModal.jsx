@@ -46,11 +46,11 @@ export default function ContactModal() {
                     <div className="space-y-3">
                         <div className="flex items-center gap-3">
                             <Phone size={18} className="text-blue-600" />
-                            <span>+91 63696 35279</span>
+                            <span>9865732398</span>
                         </div>
                         <div className="flex items-center gap-3">
                             <Mail size={18} className="text-blue-600" />
-                            <span>info@akshramplayschool.com</span>
+                            <span>akhsharamplayschool@gmail.com</span>
                         </div>
                     </div>
                     <Link href="/contact">

@@ -20,7 +20,7 @@ const ImageBody = () => {
           Where Smiles & Learning Begin
         </h2>
         <p className="mt-4 text-gray-600 text-sm sm:text-base">
-          At Akshram Play School, Namakkal, we believe joyful learning begins in a nurturing space led by passionate educators. See our little learners and dedicated teachers in action.
+          At Akhsharam Play School Namakkal, we believe joyful learning begins in a nurturing space led by passionate educators. See our little learners and dedicated teachers in action.
         </p>
       </div>
 
@@ -49,7 +49,7 @@ const ImageBody = () => {
         >
           <Image
             src={Image2}
-            alt="Akshram teacher guiding kids in classroom – Namakkal preschool"
+            alt="Akhsharam Play School teacher guiding kids in classroom – Namakkal preschool"
             width={600}
             height={400}
             className="w-full h-auto object-cover rounded-2xl"

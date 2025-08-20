@@ -27,6 +27,12 @@ export const metadata = {
     'Creative learning for children',
     'Namakkal preschool admission 2025',
   ],
+  verification: {
+    google: '73S7-fhQGviP6VIY1swS6bpwkxkNbT8GaLYAUNumfiw',
+  },
+  icons: {
+    icon: '/favicon.ico',
+  },
 };
 
 

@@ -13,7 +13,7 @@ import image5 from "@/public/assets/Testimonial/revathy.png";
 const testimonials = [
     {
         quote:
-            "Akshram has built a warm and joyful space where my daughter feels truly safe, encouraged, and eager to learn every single day.",
+            "Akhsharam Play School has built a warm and joyful space where my daughter feels truly safe, encouraged, and eager to learn every single day.",
         name: "Revathi Narayanan",
         location: "Namakkal, TN",
         image: image1,
@@ -39,7 +39,7 @@ const testimonials = [
         name: "Karthik Balamurugan",
         location: "Karur, TN",
         text:
-            "I really appreciate how Akshram blends academics with creativity. Story time, weekly art, and structured play are my child's favorites.",
+            "I really appreciate how Akhsharam  blends academics with creativity. Story time, weekly art, and structured play are my child's favorites.",
         image: image4,
         rating: 5,
     },

@@ -13,7 +13,7 @@ const steps = [
     image: img1,
     title: 'Social Development Skills',
     description:
-      'At Akshram Play School in Namakkal, children build social confidence through group play, communication games, and storytelling sessions.',
+      'At Akhsharam Play School in Namakkal, children build social confidence through group play, communication games, and storytelling sessions.',
     href: '/about',
     alt: 'Children socializing in preschool activities',
   },

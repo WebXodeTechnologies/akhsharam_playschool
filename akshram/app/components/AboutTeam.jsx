@@ -4,37 +4,37 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 
 // Replace with actual images
-import founderImg from "@/public/assets/about-hero/undraw_super-woman_6nx2.svg";
+import founderImg from "@/public/assets/img3.jpeg";
 import cofounderImg from "@/public/assets/founder1.jpg";
-import teacherImg from "@/public/assets/about-hero/undraw_super-woman_6nx2.svg";
+import teacherImg from "@/public/assets/img1.jpeg";
 
 const teamMembers = [
   {
     name: "JFD C.R. Kirutika",
-    role: "Founder of Akshram Play School",
+    role: "Founder of Akhsharam Play School",
     education: "B.E., B.Ed., Certified Neuro Psychologist",
     description:
       "With 15+ years in early childhood education, she excels in nurturing young minds and promoting cognitive development.",
     image: founderImg,
-    alt: "JFD C.R. Kirutika - Founder of Akshram Play School",
+    alt: "JFD C.R. Kirutika - Founder of Akhsharam Play School",
   },
   {
     name: "P.C. Ramkumar",
     role: "Co-Founder",
     education: "B.B.A.",
     description:
-      "A strategic leader managing child-focused operations and administration at Akshram Play School.",
+      "A strategic leader managing child-focused operations and administration at Akhsharam Play School",
     image: cofounderImg,
-    alt: "P.C. Ramkumar - Co-Founder at Akshram Play School",
+    alt: "P.C. Ramkumar - Co-Founder at Akhsharam Play School",
   },
   {
-    name: "Ms. Priya Devi",
-    role: "Senior Educator",
+    name: "Smt.G.P.S.Swarnum",
+    role: "Senior Faculty",
     education: "M.A. English, Montessori Certified",
     description:
       "Specializes in English language development and creative learning experiences for kids.",
     image: teacherImg,
-    alt: "Ms. Priya Devi - Montessori Certified Senior Educator",
+    alt: "Smt.G.P.S.Swarnum - Senior Faculty at Akhsharam Play School",
   },
 ];
 
@@ -55,7 +55,7 @@ const AboutTeam = () => {
         {teamMembers.map((member, idx) => (
           <motion.article
             key={idx}
-            className="relative  rounded-3xl overflow-hidden"
+            className="relative  rounded-4xl overflow-hidden"
             whileHover={{ scale: 1.03 }}
             transition={{ duration: 0.3 }}
             aria-label={`Profile of ${member.name}`}

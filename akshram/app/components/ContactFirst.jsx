@@ -15,10 +15,10 @@ const ContactFirst = () => {
           <h3 className="text-xl font-semibold">Email</h3>
           <p>
             <a
-              href="mailto:info@akshramplayschool.com"
+              href="akhsharamplayschool@gmail.com"
               className="text-blue-600 hover:underline"
             >
-              info@akshramplayschool.com
+              akhsharamplayschool@gmail.com
             </a>
           </p>
         </div>
@@ -31,10 +31,10 @@ const ContactFirst = () => {
           <h3 className="text-xl font-semibold">Phone</h3>
           <p>
             <a
-              href="tel:+916369635279"
+              href="tel:+919865732398"
               className="text-blue-600 hover:underline"
             >
-              +91 63696 35279
+              +91-98657-32398
             </a>
           </p>
         </div>

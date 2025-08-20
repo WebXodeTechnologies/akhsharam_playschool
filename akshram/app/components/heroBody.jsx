@@ -4,7 +4,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-import HeroImage from "@/public/assets/hero/hero-image.webp";
+import HeroImage from "@/public/assets/1920x1080-01.webp";
 import img1 from "@/public/assets/hero/vector-group-1-copyright.svg";
 import img2 from "@/public/assets/hero/vector-group-2-copyright.svg";
 import img3 from "@/public/assets/hero/vector-group-3-copyright.svg";
@@ -77,7 +77,7 @@ const HeroBody = () => {
             href="https://wa.me/9865732398"
             target="_blank"
             rel="noopener noreferrer"
-            aria-label="Chat with Akshram Play School on WhatsApp"
+            aria-label="Chat with Akhsharam Play School on WhatsApp"
             className="px-8 py-4 text-lg font-semibold text-indigo-700 border-2 border-indigo-600 rounded-full hover:bg-indigo-50 transition-all"
           >
             Chat on WhatsApp
@@ -87,7 +87,7 @@ const HeroBody = () => {
         <div className="flex justify-center">
           <Image
             src={HeroImage}
-            alt="Happy children learning at Akshram Play School Namakkal"
+            alt="Happy children learning at Akhsharam Play School Namakkal"
             priority
             className="w-full max-w-[480px] sm:max-w-[500px] md:max-w-[600px] lg:max-w-[700px] xl:max-w-[750px]"
           />

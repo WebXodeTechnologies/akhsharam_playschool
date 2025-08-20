@@ -15,7 +15,7 @@ const ContactFirst = () => {
           <h3 className="text-xl font-semibold">Email</h3>
           <p>
             <a
-              href="akhsharamplayschool@gmail.com"
+              href="mailto:akhsharamplayschool@gmail.com"
               className="text-blue-600 hover:underline"
             >
               akhsharamplayschool@gmail.com

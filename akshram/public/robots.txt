@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://akhsharam.com/sitemap.xml
